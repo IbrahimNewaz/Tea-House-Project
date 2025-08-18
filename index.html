@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea|House</title>
+    <!-- css file link -->
+    <link rel="stylesheet" href="teahouse_style/style.css">
+
+    <!-- FontAwsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <!-- Banner Section -->
+    <div
+        class="parrent-div flex flex-col md:flex-row justify-between items-center gap-[20px]  container mx-auto w-[80%]">
+        <!-- left side div -->
+        <div class="left-div ">
+            <h1 class=" manrope-font text-[70px] font-bold">
+                It's good <br>
+                tea time at The <br>Tea House
+            </h1>
+            <p class="manrope-font text-[16px] my-10 font-semibold">
+                Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.
+            </p>
+            <button
+                class="btn manrope-font w-[200px] h-[64px] bg-gradient-to-r from-[#ff8938] to-[#ff0000] text-xl text-white rounded-lg font-semibold">Explore
+                More <span><i class=" color-white fa-solid fa-arrow-up-right-from-square"></i></span></button>
+        </div>
+
+        <!-- right side div relative-top-[120px] -->
+        <div class="right-div relative ">
+            <img src="./images/banner.png" class="relative top-[120px]" alt="Banner Pic">
+            <div class=" bg-white flex items-center w-[255px] h-[100px] rounded-lg shadow-md absolute left-[100px]">
+                <span class="text-3xl"><i class="fa-solid fa-star"></i></span>
+                <div class="">
+                    <p class="text-3xl font-bold">5.00</p>
+                    <p>Trust Pilot Ratings</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Featured Products Section -->
+    <section class="min-h-[200px] max-w-[1250px] mx-auto mt-[250px]">
+        <h1 class="manrope-font text-center font-bold text-[48px]">Our Featured Products</h1>
+        <p class="manrope-font text-center font-semibold text-[16px] text-[#777777]">There are many variations of
+            passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br>
+            by injected humour, or randomised words which don't look even slightly believable.</p>
+
+        <div class="featured-parent min-h-[200px] border-2 border-green-900">
+            <div
+                class="featured-card bg-gradient-to-b from-[#f3f0f0e4] to-[#f4f4f400] w-[255px] min-h-[350px] text-center p-6 rounded-lg border-3 border-blue-800">
+                <img src="images/tea-1.png" class="mx-auto block" alt="">
+                <h1 class="manrope-font text-[25px] font-extrabold text-[#0b0b0b]">Milk Tea</h1>
+                <p class="manrope-font text-[#777777] font-semibold text-[16px]">Creamer could be replaced <br>by fresh
+                    milk</p>
+            </div>
+    </section>
+
+    </div>
+</body>
+
+</html>

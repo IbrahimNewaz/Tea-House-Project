@@ -1,0 +1,8 @@
+/* Manrope Font Importing File */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+/* Manrope Font Class*/
+.manrope-font {
+    font-family: "Manrope", sans-serif;
+}
